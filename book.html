@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book a Celebrity</title>
+</head>
+<body>
+    <h1>Book a Celebrity for Your Event</h1>
+    <form method="post">
+        <label>Name:</label><br><input type="text" name="name" required><br>
+        <label>Email:</label><br><input type="email" name="email" required><br>
+        <label>Celebrity:</label><br>
+        <select name="celebrity" required>
+            <option value="Taylor Swift">Taylor Swift</option>
+            <option value="The Rock">The Rock</option>
+            <option value="Drake">Drake</option>
+        </select><br>
+        <label>Event Type:</label><br><input type="text" name="event_type" required><br>
+        <label>Date:</label><br><input type="date" name="date" required><br>
+        <label>Location:</label><br><input type="text" name="location" required><br>
+        <label>Budget:</label><br><input type="text" name="budget" required><br><br>
+        <input type="submit" value="Submit Booking">
+    </form>
+</body>
+</html>
